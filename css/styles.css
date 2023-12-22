@@ -891,7 +891,7 @@ fill: #ffffff;
  top: 8px;
  left: 16px;
 
-Copy color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
   
   font-family: Roboto;
   font-size: 12px;
@@ -907,6 +907,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-right: 8px;
+margin-bottom: 24px;
 }
 
 .checkbox-policy{
@@ -935,4 +936,32 @@ color: var(--IRIS, #4D5AE5);
     line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.04em;
+}
+
+.submit-btn{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: none;
+  min-width: 169px;
+  
+  padding: 16px 32px;
+  
+  
+  border-radius: 4px;
+  background: var(--IRIS, #4D5AE5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   
+  color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+  
 }
