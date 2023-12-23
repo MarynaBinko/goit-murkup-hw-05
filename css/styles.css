@@ -972,7 +972,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 .checkbox:checked + .checkbox-label >.span-checkbox > .checkbox-icon{
   opacity: 1;
-  color:#F4F4FD;
+  fill:#F4F4FD;
 }
 
 
@@ -1013,14 +1013,14 @@ color: var(--IRIS, #4D5AE5);
   color: var(--WHITE, #FFF);
     text-align: center;
    
-    font-family: Roboto;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     
     letter-spacing: 0.04em;
-  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
